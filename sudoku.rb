@@ -1,6 +1,6 @@
 def done_or_not(board)
   columns = board.transpose
-  # quick checks
+  # initial checks
   return "Try again!" if board.join.include?("0")
   board.each {|row| return "Try again!" if row.uniq.count != 9}
   columns.each {|column| return "Try again!" if column.uniq.count != 9}
