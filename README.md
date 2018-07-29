@@ -10,7 +10,10 @@ Any incomplete squares are represented by a 0.
 
 # STYLISTIC CHOICES
 
-I've included initial checks to immediately reject boards with any 0s, then check rows and columns, then 3x3 sections. However, it would be a complete solution to just rely on checks of the 3x3 sections.
+I've included initial checks to immediately reject boards with any 0s, then check rows and columns, then 3x3 sections.
+
+I believe these are readable and reasonably straightforward so have not divided these into seperate
+one line functions.
 
 # TESTS
 
